@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1em;
+    background-color: white;
+}
+
+main div.aboutProduct {
+    width: 33rem;
+    height: 10rem;
+    padding-top: 9rem;
+    padding-left: 15rem;
+}
+
+main div.aboutProduct h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: hsl(300, 43%, 22%);
+    
+}
+
+main div.aboutProduct p {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+main div.rates {
+    display: grid;
+    grid-template-rows: 4.5rem 4.5rem 4.5rem;
+    gap: 2rem;
+    width: 40rem;
+    height: 35rem;
+    margin-left: 60rem;
+    margin-top: -3rem;
+}
+
+div.rates > div {
+    text-align: center;
+    background-color: hsl(300, 24%, 96%);
+    height: 4.5rem;
+    width: 35rem;
+    border-radius: 5%;
+
+}
+
+main div.review1 {
+    margin-left: 4rem;
+}
+
+
+main div.review2 {
+    margin-left: 8rem;
+}
+
+main div.review3 {
+    margin-left: 12rem;
+    
+}
+
+main div.rates div p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+    padding-left: 9rem;
+    text-align: center;
+}
+
+div.starImages {
+    margin-top: -2.5rem;
+    display: grid;
+    grid-template-columns: 1rem 1rem 1rem 1rem 1rem;
+    grid-template-rows: 10rem;
+    column-gap: 1rem;
+}
+
+div.starImages > img.star {
+    width: 140%;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+main div.buyersReview {
+    display: grid;
+    grid-template-columns: 29rem 29rem 29rem;
+    grid-template-rows: 17rem;
+    gap: 2.5rem;
+    margin-left: 15rem;
+    margin-top: -10rem;
+}
+
+div.buyersReview > div {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 3%;
+}
+
+div.buyers1 {
+    height: 17rem;
+}
+
+div.buyers2 {
+    margin-top: 2rem;
+    height: 17rem;
+}
+
+div.buyers3 {
+    margin-top: 4rem;
+    height: 17rem;
+}
+
+
+div.buyersReview img.buyerPicture {
+    width: 3.5rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    border-radius: 100%;
+}
+
+.buyerName {
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 8rem;
+    margin-top: -3.5rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+    font-size: 1.2rem;
+    padding-left: 8rem;
+    margin-top: -1rem;
+    
+}
+
+.review {
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0 3.3rem 0 3.3rem;
+    font-family: 'League Spartan', sans-serif;
+}
+.attribution {
+    padding-top: 100rem;
+    height: 20rem;
+}
